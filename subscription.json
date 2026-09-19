@@ -30,5 +30,26 @@
     "h3"
    ]
   }
+ },
+ {
+  "server": "34.15.162.1",
+  "server_port": 443,
+  "tag": "vless-1387558979",
+  "type": "vless",
+  "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
+  "packet_encoding": "xudp",
+  "tls": {
+   "enabled": true,
+   "server_name": "www.cloudflare.com",
+   "utls": {
+    "enabled": true,
+    "fingerprint": "ios"
+   },
+   "reality": {
+    "enabled": true,
+    "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
+    "short_id": "ca672c53fbbac555"
+   }
+  }
  }
 ]
