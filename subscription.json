@@ -1,0 +1,34 @@
+[
+ {
+  "tag": "🇺🇸美国US080 5.3MB/s中性 TG@jcnode",
+  "type": "vless",
+  "server": "104.17.178.154",
+  "server_port": 8880,
+  "uuid": "023af54d-8524-4fc9-b714-4579d73146cd",
+  "flow": "",
+  "transport": {
+   "type": "ws",
+   "headers": {
+    "Host": "little-breeze-c775.381.workers.dev"
+   },
+   "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+  }
+ },
+ {
+  "server": "5.83.129.153",
+  "server_port": 20088,
+  "tag": "🇩🇪德国DE002 3.95MB/s危险 TG@jcnode",
+  "type": "hysteria",
+  "up_mbps": 500,
+  "down_mbps": 1000,
+  "auth_str": "dongtaiwang.com",
+  "tls": {
+   "enabled": true,
+   "server_name": "apple.com",
+   "insecure": true,
+   "alpn": [
+    "h3"
+   ]
+  }
+ }
+]
