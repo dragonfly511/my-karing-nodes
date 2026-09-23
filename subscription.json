@@ -76,5 +76,104 @@
    "type": "grpc",
    "service_name": "grpc-tunnel"
   }
+ },
+ {
+  "server": "18.179.111.96",
+  "server_port": 443,
+  "tag": "shadowsocks-1445813269",
+  "type": "shadowsocks",
+  "method": "aes-256-cfb",
+  "password": "amazonskr05"
+ },
+ {
+  "server": "34.15.176.240",
+  "server_port": 443,
+  "tag": "vless-1456444838",
+  "type": "vless",
+  "uuid": "742dc674-a491-4a42-a551-b3ea6dd2f447",
+  "packet_encoding": "xudp",
+  "tls": {
+   "enabled": true,
+   "server_name": "www.cloudflare.com",
+   "utls": {
+    "enabled": true,
+    "fingerprint": "chrome"
+   },
+   "reality": {
+    "enabled": true,
+    "public_key": "Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U",
+    "short_id": "856c0a3cd1426a5c"
+   }
+  }
+ },
+ {
+  "server": "62.210.7.139",
+  "server_port": 60111,
+  "tag": "hysteria2-657099768",
+  "type": "hysteria2",
+  "password": "github.com/Alvin9999-newpac/fanqiang",
+  "tls": {
+   "enabled": true,
+   "server_name": "t.me",
+   "insecure": true
+  }
+ },
+ {
+  "server": "108.59.244.158",
+  "server_port": 443,
+  "tag": "hysteria2-1450809677",
+  "type": "hysteria2",
+  "password": "f62f231b031f54cde7015c87a754ea8f",
+  "tls": {
+   "enabled": true,
+   "server_name": "vkvideo.ru",
+   "insecure": true
+  }
+ },
+ {
+  "server": "de.i-love-russia.online",
+  "server_port": 443,
+  "tag": "hysteria2-1447830944",
+  "type": "hysteria2",
+  "password": "a6cf39b3-0424-42a2-abf7-b426da69b1a4",
+  "tls": {
+   "enabled": true,
+   "server_name": "de.i-love-russia.online",
+   "insecure": false
+  }
+ },
+ {
+  "server": "72.56.41.33",
+  "server_port": 40443,
+  "tag": "vless-1447865242",
+  "type": "vless",
+  "uuid": "5be7fb02-b6a5-450f-b041-3243b98e8420",
+  "flow": "xtls-rprx-vision",
+  "packet_encoding": "xudp",
+  "tls": {
+   "enabled": true,
+   "server_name": "deepl.com",
+   "utls": {
+    "enabled": true,
+    "fingerprint": "chrome"
+   },
+   "reality": {
+    "enabled": true,
+    "public_key": "Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE",
+    "short_id": "ee33"
+   }
+  }
+ },
+ {
+  "server": "hk2.xiaoliyu.cyou",
+  "server_port": 4433,
+  "tag": "hysteria2-1446360527",
+  "type": "hysteria2",
+  "password": "19f72087-4591-4d72-930b-2697078ec2be",
+  "tls": {
+   "enabled": true,
+   "server_name": "hk2.xiaoliyu.cyou",
+   "insecure": true
+  }
  }
 ]
