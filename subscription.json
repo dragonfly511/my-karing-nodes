@@ -175,5 +175,27 @@
    "server_name": "hk2.xiaoliyu.cyou",
    "insecure": true
   }
+ },
+ {
+  "server": "38.244.20.25",
+  "server_port": 443,
+  "tag": "🇺🇸 美国 | VLESS | 001",
+  "type": "vless",
+  "uuid": "5272cd9f-a028-4452-ad8a-9bc21f87bb19",
+  "flow": "xtls-rprx-vision",
+  "packet_encoding": "xudp",
+  "tls": {
+   "enabled": true,
+   "server_name": "www.apple.com",
+   "utls": {
+    "enabled": true,
+    "fingerprint": "safari"
+   },
+   "reality": {
+    "enabled": true,
+    "public_key": "0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds",
+    "short_id": "befa80d97af98b74"
+   }
+  }
  }
 ]
