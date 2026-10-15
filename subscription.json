@@ -28,5 +28,22 @@
     ]
    }
   }
+ },
+ {
+  "server": "5.83.129.153",
+  "server_port": 20088,
+  "tag": "🇩🇪德国DE002 3.95MB/s危险 TG@jcnode",
+  "type": "hysteria",
+  "up_mbps": 500,
+  "down_mbps": 1000,
+  "auth_str": "dongtaiwang.com",
+  "tls": {
+   "enabled": true,
+   "server_name": "5.83.129.153",
+   "insecure": true,
+   "alpn": [
+    "h3"
+   ]
+  }
  }
 ]
