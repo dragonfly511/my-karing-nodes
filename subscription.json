@@ -45,5 +45,18 @@
     "h3"
    ]
   }
+ },
+ {
+  "tag": "🇺🇸美国US 046 7.4MB/s TG@jcnode",
+  "type": "http",
+  "server": "138.199.35.209",
+  "server_port": 9002,
+  "username": "",
+  "password": "",
+  "tls": {
+   "enabled": true,
+   "server_name": "138.199.35.209",
+   "insecure": true
+  }
  }
 ]
