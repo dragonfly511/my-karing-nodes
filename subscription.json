@@ -1,213 +1,32 @@
 [
  {
-  "tag": "🇺🇸美国US080 5.3MB/s中性 TG@jcnode",
-  "type": "vless",
-  "server": "104.17.178.154",
-  "server_port": 8880,
-  "uuid": "023af54d-8524-4fc9-b714-4579d73146cd",
-  "flow": "",
-  "transport": {
-   "type": "ws",
-   "headers": {
-    "Host": "little-breeze-c775.381.workers.dev"
-   },
-   "path": "/pyip=ProxyIP.SG.CMLiussss.net"
-  }
- },
- {
-  "server": "5.83.129.153",
-  "server_port": 20088,
-  "tag": "🇩🇪德国DE002 3.95MB/s危险 TG@jcnode",
-  "type": "hysteria",
-  "up_mbps": 500,
-  "down_mbps": 1000,
-  "auth_str": "dongtaiwang.com",
-  "tls": {
-   "enabled": true,
-   "server_name": "apple.com",
-   "insecure": true,
-   "alpn": [
-    "h3"
-   ]
-  }
- },
- {
-  "server": "34.15.162.1",
+  "server": "154.29.145.196",
   "server_port": 443,
-  "tag": "vless-1387558979",
+  "tag": "🇺🇸 [371.9ms +/-841ms] vless-1636626764",
   "type": "vless",
-  "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
+  "uuid": "62fdae06-6692-4b79-8f34-470784e55fd6",
   "packet_encoding": "xudp",
   "tls": {
    "enabled": true,
-   "server_name": "www.cloudflare.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "ios"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
-    "short_id": "ca672c53fbbac555"
-   }
-  }
- },
- {
-  "server": "176.109.104.195",
-  "server_port": 9873,
-  "tag": "176.109.104.195:9873",
-  "type": "vless",
-  "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "dl.google.com",
+   "server_name": "itunes.apple.com",
    "utls": {
     "enabled": true,
     "fingerprint": "chrome"
    },
    "reality": {
     "enabled": true,
-    "public_key": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-    "short_id": "aabb"
+    "public_key": "h6EW_Y5nW9PRypxaOrSOyiHZDR-kuNfdoy24inGOoB0",
+    "short_id": "33b15a3e"
    }
   },
   "transport": {
-   "type": "grpc",
-   "service_name": "grpc-tunnel"
-  }
- },
- {
-  "server": "18.179.111.96",
-  "server_port": 443,
-  "tag": "shadowsocks-1445813269",
-  "type": "shadowsocks",
-  "method": "aes-256-cfb",
-  "password": "amazonskr05"
- },
- {
-  "server": "34.15.176.240",
-  "server_port": 443,
-  "tag": "vless-1456444838",
-  "type": "vless",
-  "uuid": "742dc674-a491-4a42-a551-b3ea6dd2f447",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "www.cloudflare.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "chrome"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U",
-    "short_id": "856c0a3cd1426a5c"
+   "type": "ws",
+   "path": "/ws",
+   "headers": {
+    "Host": [
+     "itunes.apple.com"
+    ]
    }
-  }
- },
- {
-  "server": "62.210.7.139",
-  "server_port": 60111,
-  "tag": "hysteria2-657099768",
-  "type": "hysteria2",
-  "password": "github.com/Alvin9999-newpac/fanqiang",
-  "tls": {
-   "enabled": true,
-   "server_name": "t.me",
-   "insecure": true
-  }
- },
- {
-  "server": "108.59.244.158",
-  "server_port": 443,
-  "tag": "hysteria2-1450809677",
-  "type": "hysteria2",
-  "password": "f62f231b031f54cde7015c87a754ea8f",
-  "tls": {
-   "enabled": true,
-   "server_name": "vkvideo.ru",
-   "insecure": true
-  }
- },
- {
-  "server": "de.i-love-russia.online",
-  "server_port": 443,
-  "tag": "hysteria2-1447830944",
-  "type": "hysteria2",
-  "password": "a6cf39b3-0424-42a2-abf7-b426da69b1a4",
-  "tls": {
-   "enabled": true,
-   "server_name": "de.i-love-russia.online",
-   "insecure": false
-  }
- },
- {
-  "server": "72.56.41.33",
-  "server_port": 40443,
-  "tag": "vless-1447865242",
-  "type": "vless",
-  "uuid": "5be7fb02-b6a5-450f-b041-3243b98e8420",
-  "flow": "xtls-rprx-vision",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "deepl.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "chrome"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE",
-    "short_id": "ee33"
-   }
-  }
- },
- {
-  "server": "hk2.xiaoliyu.cyou",
-  "server_port": 4433,
-  "tag": "hysteria2-1446360527",
-  "type": "hysteria2",
-  "password": "19f72087-4591-4d72-930b-2697078ec2be",
-  "tls": {
-   "enabled": true,
-   "server_name": "hk2.xiaoliyu.cyou",
-   "insecure": true
-  }
- },
- {
-  "server": "38.244.20.25",
-  "server_port": 443,
-  "tag": "🇺🇸 美国 | VLESS | 001",
-  "type": "vless",
-  "uuid": "5272cd9f-a028-4452-ad8a-9bc21f87bb19",
-  "flow": "xtls-rprx-vision",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "www.apple.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "safari"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds",
-    "short_id": "befa80d97af98b74"
-   }
-  }
- },
- {
-  "server": "85.204.107.190",
-  "server_port": 8443,
-  "tag": "hysteria2-1511948090",
-  "type": "hysteria2",
-  "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
-  "tls": {
-   "enabled": true,
-   "server_name": "hopp-romania-new.roxa.org",
-   "insecure": false
   }
  }
 ]
