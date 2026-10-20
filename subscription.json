@@ -118,5 +118,21 @@
     ]
    }
   }
+ },
+ {
+  "method": "aes-256-gcm",
+  "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+  "type": "shadowsocks",
+  "tag": "🇺🇸 [399.6ms +/-978ms] shadowsocks-1875022992",
+  "server": "185.215.132.9",
+  "server_port": 19999
+ },
+ {
+  "method": "aes-256-gcm",
+  "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+  "type": "shadowsocks",
+  "tag": "🇺🇸 [358.3ms +/-779ms] shadowsocks-1875023016",
+  "server": "185.230.230.18",
+  "server_port": 19999
  }
 ]
