@@ -1,141 +1,5 @@
 [
  {
-  "server": "154.29.145.196",
-  "server_port": 443,
-  "tag": "🇺🇸 [371.9ms +/-841ms] vless-1636626764",
-  "type": "vless",
-  "uuid": "62fdae06-6692-4b79-8f34-470784e55fd6",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "itunes.apple.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "chrome"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "h6EW_Y5nW9PRypxaOrSOyiHZDR-kuNfdoy24inGOoB0",
-    "short_id": "33b15a3e"
-   }
-  },
-  "transport": {
-   "type": "ws",
-   "path": "/ws",
-   "headers": {
-    "Host": [
-     "itunes.apple.com"
-    ]
-   }
-  }
- },
- {
-  "server": "5.83.129.153",
-  "server_port": 20088,
-  "tag": "🇩🇪德国DE002 3.95MB/s危险 TG@jcnode",
-  "type": "hysteria",
-  "up_mbps": 500,
-  "down_mbps": 1000,
-  "auth_str": "dongtaiwang.com",
-  "tls": {
-   "enabled": true,
-   "server_name": "5.83.129.153",
-   "insecure": true,
-   "alpn": [
-    "h3"
-   ]
-  }
- },
- {
-  "tag": "🇺🇸美国US 046 7.4MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.209",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.209",
-   "insecure": true
-  }
- },
- {
-  "server": "154.12.38.202",
-  "server_port": 443,
-  "tag": "🇺🇸 [303.7ms +/-1ms] vless-1831093591",
-  "type": "vless",
-  "uuid": "2a9ab69b-26e7-44d0-a325-e5056d849900",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "itunes.apple.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "chrome"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "iJDZHJQcTGl2VIwbsRmlOG9JGbbmxNY5wmv1hc6OwQM",
-    "short_id": "c31176b6"
-   }
-  },
-  "transport": {
-   "type": "ws",
-   "path": "/ws",
-   "headers": {
-    "Host": [
-     "itunes.apple.com"
-    ]
-   }
-  }
- },
- {
-  "server": "154.9.241.170",
-  "server_port": 443,
-  "tag": "🇺🇸 [469.8ms +/-197ms] vless-1835095659",
-  "type": "vless",
-  "uuid": "30b98a28-ed4e-46eb-8548-54c25f4db53c",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "itunes.apple.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "chrome"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "_E8d7s7B7xYfZImOkKmESW6MJDxwKxnsscu56jhE2EM",
-    "short_id": "3fb4e08c"
-   }
-  },
-  "transport": {
-   "type": "ws",
-   "path": "/ws",
-   "headers": {
-    "Host": [
-     "itunes.apple.com"
-    ]
-   }
-  }
- },
- {
-  "method": "aes-256-gcm",
-  "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-  "type": "shadowsocks",
-  "tag": "🇺🇸 [399.6ms +/-978ms] shadowsocks-1875022992",
-  "server": "185.215.132.9",
-  "server_port": 19999
- },
- {
-  "method": "aes-256-gcm",
-  "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-  "type": "shadowsocks",
-  "tag": "🇺🇸 [358.3ms +/-779ms] shadowsocks-1875023016",
-  "server": "185.230.230.18",
-  "server_port": 19999
- },
- {
   "server": "45.63.53.81",
   "server_port": 443,
   "tag": "🇺🇸 [219.8ms +/-1ms] vless-1835128666",
@@ -160,7 +24,7 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
   }
@@ -190,7 +54,7 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
   }
@@ -220,7 +84,7 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
   }
@@ -250,39 +114,17 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
   }
  },
  {
-  "server": "156.229.164.149",
-  "server_port": 9443,
-  "tag": "🇺🇸 [341.3ms +/-11ms] vless-1887262069",
-  "type": "vless",
-  "uuid": "82eb8419-59f4-4d3e-9106-d05d22af615c",
-  "flow": "xtls-rprx-vision",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "www.amazon.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "chrome"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4",
-    "short_id": "b390142456517acc"
-   }
-  }
- },
- {
-  "server": "154.12.38.159",
+  "server": "45.63.53.81",
   "server_port": 443,
-  "tag": "🇺🇸 [264.5ms +/-5ms] vless-1853341790",
+  "tag": "🇺🇸 [197.5ms +/-2ms] vless-1835128666",
   "type": "vless",
-  "uuid": "12c465bd-11a3-4fd8-8aa9-19b20a883b9e",
+  "uuid": "c512dcbd-1847-40a2-9c99-989c8bfe4717",
   "packet_encoding": "xudp",
   "tls": {
    "enabled": true,
@@ -293,8 +135,128 @@
    },
    "reality": {
     "enabled": true,
-    "public_key": "iv4XmZKQUC4KEuMaWZxDmjJOlGEnS3rRw-Nk8h93zUU",
-    "short_id": "f61a3a8f"
+    "public_key": "6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0",
+    "short_id": "f436f707"
+   }
+  },
+  "transport": {
+   "type": "ws",
+   "path": "/ws",
+   "headers": {
+    "Host": [
+     "itunes.apple.com"
+    ]
+   }
+  }
+ },
+ {
+  "server": "144.202.126.147",
+  "server_port": 443,
+  "tag": "🇺🇸 [196.0ms +/-3ms] vless-1875764128",
+  "type": "vless",
+  "uuid": "45d51389-0c38-4843-8ae8-cffb94e97a72",
+  "packet_encoding": "xudp",
+  "tls": {
+   "enabled": true,
+   "server_name": "itunes.apple.com",
+   "utls": {
+    "enabled": true,
+    "fingerprint": "chrome"
+   },
+   "reality": {
+    "enabled": true,
+    "public_key": "jO7THaLxz0Oz3kePAJcuwcKNTlsWoEWGh18zzRmiXgo",
+    "short_id": "77c4230d"
+   }
+  },
+  "transport": {
+   "type": "ws",
+   "path": "/ws",
+   "headers": {
+    "Host": [
+     "itunes.apple.com"
+    ]
+   }
+  }
+ },
+ {
+  "server": "45.76.172.197",
+  "server_port": 443,
+  "tag": "🇺🇸 [205.8ms +/-12ms] vless-1880433481",
+  "type": "vless",
+  "uuid": "b256c867-a020-48e0-be80-1b079f2613a2",
+  "packet_encoding": "xudp",
+  "tls": {
+   "enabled": true,
+   "server_name": "itunes.apple.com",
+   "utls": {
+    "enabled": true,
+    "fingerprint": "chrome"
+   },
+   "reality": {
+    "enabled": true,
+    "public_key": "Ag8SQ5QdqfHO9pKWA93kqGmH5EQo7Xm5Z4RbPnwPBBE",
+    "short_id": "ff3597db"
+   }
+  },
+  "transport": {
+   "type": "ws",
+   "path": "/ws",
+   "headers": {
+    "Host": [
+     "itunes.apple.com"
+    ]
+   }
+  }
+ },
+ {
+  "server": "172.236.227.60",
+  "server_port": 443,
+  "tag": "🇺🇸 [207.3ms +/-0ms] vless-1894805191",
+  "type": "vless",
+  "uuid": "e1ca5089-4e86-4fa9-b5e7-aa94cd91e71d",
+  "packet_encoding": "xudp",
+  "tls": {
+   "enabled": true,
+   "server_name": "itunes.apple.com",
+   "utls": {
+    "enabled": true,
+    "fingerprint": "chrome"
+   },
+   "reality": {
+    "enabled": true,
+    "public_key": "RTuOfZq_rHg1mbEZ_Xh0p9jDaRjIv_CYy5E-oLfUUR4",
+    "short_id": "59ad82ce"
+   }
+  },
+  "transport": {
+   "type": "ws",
+   "path": "/ws",
+   "headers": {
+    "Host": [
+     "itunes.apple.com"
+    ]
+   }
+  }
+ },
+ {
+  "server": "45.32.69.110",
+  "server_port": 443,
+  "tag": "🇺🇸 [241.6ms +/-22ms] vless-1850176813",
+  "type": "vless",
+  "uuid": "1572b9c5-d741-46eb-b4a2-a5d23958dfbe",
+  "packet_encoding": "xudp",
+  "tls": {
+   "enabled": true,
+   "server_name": "itunes.apple.com",
+   "utls": {
+    "enabled": true,
+    "fingerprint": "chrome"
+   },
+   "reality": {
+    "enabled": true,
+    "public_key": "6l-Yq_zkVrnExw8AVv85VwoYnfNc8-dRSpoj_AA-fxY",
+    "short_id": "c5cde18f"
    }
   },
   "transport": {
