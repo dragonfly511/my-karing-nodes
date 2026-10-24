@@ -90,36 +90,6 @@
   }
  },
  {
-  "server": "172.236.227.60",
-  "server_port": 443,
-  "tag": "🇺🇸 [383.9ms +/-10ms] vless-1882973880",
-  "type": "vless",
-  "uuid": "e1ca5089-4e86-4fa9-b5e7-aa94cd91e71d",
-  "packet_encoding": "xudp",
-  "tls": {
-   "enabled": true,
-   "server_name": "itunes.apple.com",
-   "utls": {
-    "enabled": true,
-    "fingerprint": "chrome"
-   },
-   "reality": {
-    "enabled": true,
-    "public_key": "RTuOfZq_rHg1mbEZ_Xh0p9jDaRjIv_CYy5E-oLfUUR4",
-    "short_id": "59ad82ce"
-   }
-  },
-  "transport": {
-   "type": "ws",
-   "path": "/ws",
-   "headers": {
-    "Host": [
-     "['itunes.apple.com']"
-    ]
-   }
-  }
- },
- {
   "server": "45.63.53.81",
   "server_port": 443,
   "tag": "🇺🇸 [197.5ms +/-2ms] vless-1835128666",
