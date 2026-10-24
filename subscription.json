@@ -1,5 +1,31 @@
 [
  {
+  "tag": "🇺🇸美国US 013 6.2MB/s TG@jcnode",
+  "type": "http",
+  "server": "138.199.35.216",
+  "server_port": 9002,
+  "username": "",
+  "password": "",
+  "tls": {
+   "enabled": true,
+   "server_name": "138.199.35.216",
+   "insecure": true
+  }
+ },
+ {
+  "tag": "🇺🇸美国US 047 6.2MB/s TG@jcnode",
+  "type": "http",
+  "server": "138.199.35.195",
+  "server_port": 9002,
+  "username": "",
+  "password": "",
+  "tls": {
+   "enabled": true,
+   "server_name": "138.199.35.195",
+   "insecure": true
+  }
+ },
+ {
   "server": "45.63.53.81",
   "server_port": 443,
   "tag": "🇺🇸 [197.5ms +/-2ms] vless-1835128666",
@@ -24,7 +50,7 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
   }
@@ -54,7 +80,7 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
   }
@@ -84,7 +110,7 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
   }
@@ -114,7 +140,7 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
   }
@@ -144,230 +170,9 @@
    "path": "/ws",
    "headers": {
     "Host": [
-     "itunes.apple.com"
+     "['itunes.apple.com']"
     ]
    }
-  }
- },
- {
-  "tag": "🇺🇸美国US 013 6.2MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.216",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.216",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 047 6.2MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.195",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.195",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇳🇱荷兰NL 007 6.8MB/s TG@jcnode",
-  "type": "http",
-  "server": "84.17.47.148",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "84.17.47.148",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 050 7.4MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.207",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.207",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇳🇱荷兰NL 006 4.9MB/s TG@jcnode",
-  "type": "http",
-  "server": "84.17.47.125",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "84.17.47.125",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 059 4.9MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.211",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.211",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇳🇱荷兰NL 003 7.4MB/s TG@jcnode",
-  "type": "http",
-  "server": "84.17.47.150",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "84.17.47.150",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 045 6.8MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.197",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.197",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 049 6.2MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.220",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.220",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 062 6.2MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.206",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.206",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 012 6.1MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.217",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.217",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 065 7.4MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.212",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.212",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇳🇱荷兰NL 005 7.4MB/s TG@jcnode",
-  "type": "http",
-  "server": "84.17.47.146",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "84.17.47.146",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 055 6.2MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.213",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.213",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 052 8.0MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.204",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.204",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 060 6.1MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.210",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.210",
-   "insecure": true
-  }
- },
- {
-  "tag": "🇺🇸美国US 057 6.8MB/s TG@jcnode",
-  "type": "http",
-  "server": "138.199.35.219",
-  "server_port": 9002,
-  "username": "",
-  "password": "",
-  "tls": {
-   "enabled": true,
-   "server_name": "138.199.35.219",
-   "insecure": true
   }
  }
 ]
